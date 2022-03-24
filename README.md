@@ -2,8 +2,8 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-|Maxime Dulon|302709 |
-|Francesca Paola Nicoletti | |
+|Maxime Dulon|302709|
+|Francesca Paola Nicoletti |302024|
 | Kieran Vaudaux| 287703|
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)

@@ -42,6 +42,8 @@ Please, fill the following sections about your project.
 > - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
 > - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
 
+https://yearbook.enerdata.net/total-energy/world-energy-intensity-gdp-data.html
+
 ## Milestone 2 (7th May, 5pm)
 
 **10% of the final grade**

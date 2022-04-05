@@ -33,9 +33,21 @@ The data has already been processed and cleaned, the only processing we will hav
 
 ### Problematic
 
-> Frame the general topic of your visualization and the main axis that you want to develop.
-> - What am I trying to show with my visualization?
-> - Think of an overview for the project, your motivation, and the target audience.
+Energy is a very important topic nowadays so we thought this could be interesting to develop a visual representation of energy related data. We also want to give a global and complete vision of the world energy network. 
+
+What are the energy exchanges (production/consumption) between countries or even between continents?
+Which types of energy are most present (produced/consumed), in which countries and the diversification over time?
+
+In what areas are the different types of energy used? How does this evolve over time and how does it differ according to the wealth of the countries for example?
+Are the most developed countries more advanced in the production of renewable energy?
+
+We could also think of making it easier to analyze with the map how to improve the exchange of energy resources between countries?
+
+We target audience in the following way: someone interested in knowing more about the energy network. The visualization must be adapted to an audience not educated on the subject. 
+The idea is to have the audience discover the subject in its globally first, then to have an interactive format to deepen some points.
+
+The main point of our visualization is that it will show a global graphical overview of energy related quantities and one can find more information by interacting with the map to have more detailed knowledge about specific data.
+
 
 ### Exploratory Data Analysis
 

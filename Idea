@@ -1,0 +1,60 @@
+Dataset
+Find a dataset (or multiple) that you will explore. Assess the quality of the data it contains and how much preprocessing / data-cleaning it will require before tackling visualization. We recommend using a standard dataset as this course is not about scraping nor data processing.
+
+Hint: some good pointers for finding quality publicly available datasets (Google dataset search, Kaggle, OpenSwissData, SNAP and FiveThirtyEight), you could use also the DataSets proposed by the ENAC (see the Announcements section on Zulip).
+    
+- Describing dataset, how many there is? Quality of data?
+
+Mini compte rendu EDA globale:
+
+Comme il y a beaucoup de dataset et de pays, c'est assez compliqué de montrer quelles informations sont disponibles chaque pays. Le moyen le plus visuel et le moins horrible 
+que j'ai trouvé pour faire cela, ça a été de faire une heatmap du nombre de données disponibles en fonction du pays et du dataset (ou encore du nombre d'estimation présente 
+pour chaque dataset et chaque pays). L'axe des abscisses de ces heatmaps représente l'index du pays et l'axe des ordonnées l'index du dataset considéré (j'ai essayer de
+mettre les noms des pays et ceux des datasets dans les labels des axes mais il y en a tellement que ça rend le plot pas très lisible). Sur ces heatmaps, les valeurs 
+négatives représentent l'absence de données dans un dataset pour un pays. Je vais essayer de réfléchir à d'autres moyens de visualiser la répartition des données 
+à travers chaque dataset et pays mais pour l'instant les heatmaps me semblent les plus claires même si elles ne font que données une idée globale car on ne peut pas lire le 
+noms des pays et le nom des datasets.
+    
+
+Problematic
+Frame the general topic of your visualization and the main axis that you want to develop.
+
+What am I trying to show with my visualization?
+Think of an overview for the project, your motivation, and the target audience.
+
+- Energy is a very important topic nowadays so we thought this could be interesting to have a visual representation of energy related data. 
+- Comment sont réparties les énergies dans le monde ? Pays plus dvpés -> plus de green energy ?
+- Permettre d'analyser plus facilement avec la carte comment améliorer les échanges de ressources énergétiques entre les pays ?
+- Pour moi, une idée importante à faire passé dans la problématique ça serait : On essaye pas de montrer quelque chose de  spéciale avec notre visualisation, ce
+qu'on essaie de faire c'est plutôt de fournir une interface visuelle qui permette à l'utilisateur d'une part de visualiser les données des datasets, mais aussi 
+de pouvoir mettre ces données en relations avec elles-mêmes et avec d'autres datasets (avec des filtres ou autre), de façon à ce qu'il puisse lui-même trouver
+des patterns dans les données.
+
+
+
+
+
+Exploratory Data Analysis
+Pre-processing of the data set you chose
+
+Show some basic statistics and get insights about the data
+
+- Quantitative data
+
+
+
+Related work
+What others have already done with the data?
+Why is your approach original?
+What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
+In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
+
+- Select some other features than usual maps
+- One can choose more criterion
+- Official data from UN
+- Notre approche est originale car elle permettrait à l'utilisateur de chercher de l'informattion contenu dans ce dataset en y appliquant des filtres, 
+mais en ayant la possibilités d'accéder à cette informtaion de manière beaucoup plus visuelle que si il avait cherché cette information dans la dataset brut.
+
+Other projects
+- https://yearbook.enerdata.net/total-energy/world-energy-intensity-gdp-data.html
+- https://ec.europa.eu/eurostat/fr/web/energy/visualisations

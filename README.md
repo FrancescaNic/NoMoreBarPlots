@@ -41,7 +41,7 @@ Which types of energy are most present (produced/consumed), in which countries a
 In what areas are the different types of energy used? How does this evolve over time and how does it differ according to the wealth of the countries for example?
 Are the most developed countries more advanced in the production of renewable energy?
 
-We could also think of making it easier to analyze with the map how to improve the exchange of energy resources between countries?
+How to improve and optimize the exchange of energy resources between countries?
 
 We target audience in the following way: someone interested in knowing more about the energy network. The visualization must be adapted to an audience not educated on the subject. 
 The idea is to have the audience discover the subject in its globally first, then to have an interactive format to deepen some points.

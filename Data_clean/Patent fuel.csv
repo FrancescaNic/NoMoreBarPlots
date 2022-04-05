@@ -789,8 +789,8 @@
 787,Bulgaria,Patent fuel - Transformation,Patent fuel,Transformation,2008,"Metric tons,  thousand",12.0,
 788,Bulgaria,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",2009,"Metric tons,  thousand",0.0,
 789,Bulgaria,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",2008,"Metric tons,  thousand",12.0,
-790,Bulgaria,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,,2009,"Metric tons,  thousand",0.0,
-791,Bulgaria,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,,2008,"Metric tons,  thousand",12.0,
+790,Bulgaria,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,Patent fuel,2009,"Metric tons,  thousand",0.0,
+791,Bulgaria,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,Patent fuel,2008,"Metric tons,  thousand",12.0,
 792,Bulgaria,Patent fuel - Total energy supply,Patent fuel,Total energy supply,2009,"Metric tons,  thousand",0.0,
 793,Bulgaria,Patent fuel - Total energy supply,Patent fuel,Total energy supply,2008,"Metric tons,  thousand",12.0,
 794,Czechoslovakia (former),Patent fuel - imports,Patent fuel,imports,1991,"Metric tons,  thousand",0.0,
@@ -842,16 +842,16 @@
 840,Fiji,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",2010,"Metric tons,  thousand",0.002029,1
 841,Fiji,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",2009,"Metric tons,  thousand",0.004266,1
 842,Fiji,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",2008,"Metric tons,  thousand",0.000893,1
-843,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2017,"Metric tons,  thousand",0.008,1
-844,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2016,"Metric tons,  thousand",0.0075,1
-845,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2015,"Metric tons,  thousand",0.0019,1
-846,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2014,"Metric tons,  thousand",0.0015,1
-847,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2013,"Metric tons,  thousand",0.0021,1
-848,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2012,"Metric tons,  thousand",0.0001,1
-849,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2011,"Metric tons,  thousand",0.0006,1
-850,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2010,"Metric tons,  thousand",0.002029,1
-851,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2009,"Metric tons,  thousand",0.004266,1
-852,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2008,"Metric tons,  thousand",0.000893,1
+843,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2017,"Metric tons,  thousand",0.008,1
+844,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2016,"Metric tons,  thousand",0.0075,1
+845,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2015,"Metric tons,  thousand",0.0019,1
+846,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2014,"Metric tons,  thousand",0.0015,1
+847,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2013,"Metric tons,  thousand",0.0021,1
+848,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2012,"Metric tons,  thousand",0.0001,1
+849,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2011,"Metric tons,  thousand",0.0006,1
+850,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2010,"Metric tons,  thousand",0.002029,1
+851,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2009,"Metric tons,  thousand",0.004266,1
+852,Fiji,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2008,"Metric tons,  thousand",0.000893,1
 853,Fiji,Patent fuel - Total energy supply,Patent fuel,Total energy supply,2018,"Metric tons,  thousand",0.0,
 854,Fiji,Patent fuel - Total energy supply,Patent fuel,Total energy supply,2017,"Metric tons,  thousand",0.008,1
 855,Fiji,Patent fuel - Total energy supply,Patent fuel,Total energy supply,2016,"Metric tons,  thousand",0.0075,
@@ -2640,19 +2640,19 @@
 2638,Poland,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",1992,"Metric tons,  thousand",4.0,
 2639,Poland,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",1991,"Metric tons,  thousand",11.0,
 2640,Poland,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",1990,"Metric tons,  thousand",86.0,
-2641,Poland,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,,2002,"Metric tons,  thousand",1.0,
-2642,Poland,Patent fuel - Transformation in heat plants - main activity producers,Patent fuel,,1993,"Metric tons,  thousand",1.0,
-2643,Poland,Patent fuel - Transformation in heat plants - main activity producers,Patent fuel,,1992,"Metric tons,  thousand",3.0,
-2644,Poland,Patent fuel - Transformation in heat plants - main activity producers,Patent fuel,,1991,"Metric tons,  thousand",7.0,
-2645,Poland,Patent fuel - Transformation in heat plants - main activity producers,Patent fuel,,1990,"Metric tons,  thousand",74.0,
-2646,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,,1997,"Metric tons,  thousand",2.0,
-2647,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,,1996,"Metric tons,  thousand",0.0,
-2648,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,,1995,"Metric tons,  thousand",0.0,
-2649,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,,1994,"Metric tons,  thousand",2.0,
-2650,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,,1993,"Metric tons,  thousand",1.0,
-2651,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,,1992,"Metric tons,  thousand",1.0,
-2652,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,,1991,"Metric tons,  thousand",4.0,
-2653,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,,1990,"Metric tons,  thousand",12.0,
+2641,Poland,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,Patent fuel,2002,"Metric tons,  thousand",1.0,
+2642,Poland,Patent fuel - Transformation in heat plants - main activity producers,Patent fuel,Patent fuel,1993,"Metric tons,  thousand",1.0,
+2643,Poland,Patent fuel - Transformation in heat plants - main activity producers,Patent fuel,Patent fuel,1992,"Metric tons,  thousand",3.0,
+2644,Poland,Patent fuel - Transformation in heat plants - main activity producers,Patent fuel,Patent fuel,1991,"Metric tons,  thousand",7.0,
+2645,Poland,Patent fuel - Transformation in heat plants - main activity producers,Patent fuel,Patent fuel,1990,"Metric tons,  thousand",74.0,
+2646,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,Patent fuel,1997,"Metric tons,  thousand",2.0,
+2647,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,Patent fuel,1996,"Metric tons,  thousand",0.0,
+2648,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,Patent fuel,1995,"Metric tons,  thousand",0.0,
+2649,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,Patent fuel,1994,"Metric tons,  thousand",2.0,
+2650,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,Patent fuel,1993,"Metric tons,  thousand",1.0,
+2651,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,Patent fuel,1992,"Metric tons,  thousand",1.0,
+2652,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,Patent fuel,1991,"Metric tons,  thousand",4.0,
+2653,Poland,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,Patent fuel,1990,"Metric tons,  thousand",12.0,
 2654,Poland,Patent fuel - energy industries own use,Patent fuel,energy industries own use,1990,"Metric tons,  thousand",1.0,
 2655,Poland,Patent fuel - own use in coal mines,Patent fuel,own use in coal mines,1990,"Metric tons,  thousand",1.0,
 2656,Poland,Patent fuel - Final energy consumption,Patent fuel,Final energy consumption,2020,"Metric tons,  thousand",0.996,
@@ -2939,11 +2939,11 @@
 2937,Romania,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",1994,"Metric tons,  thousand",3.0,
 2938,Romania,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",1993,"Metric tons,  thousand",10.0,
 2939,Romania,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",1992,"Metric tons,  thousand",33.0,
-2940,Romania,Patent fuel - Transformation in heat plants - main activity producers,Patent fuel,,1992,"Metric tons,  thousand",33.0,
-2941,Romania,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,,1999,"Metric tons,  thousand",1.0,
-2942,Romania,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,,1995,"Metric tons,  thousand",4.0,
-2943,Romania,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,,1994,"Metric tons,  thousand",3.0,
-2944,Romania,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,,1993,"Metric tons,  thousand",10.0,
+2940,Romania,Patent fuel - Transformation in heat plants - main activity producers,Patent fuel,Patent fuel,1992,"Metric tons,  thousand",33.0,
+2941,Romania,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,Patent fuel,1999,"Metric tons,  thousand",1.0,
+2942,Romania,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,Patent fuel,1995,"Metric tons,  thousand",4.0,
+2943,Romania,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,Patent fuel,1994,"Metric tons,  thousand",3.0,
+2944,Romania,Patent fuel - Transformation in heat plants - autoproducers,Patent fuel,Patent fuel,1993,"Metric tons,  thousand",10.0,
 2945,Romania,Patent fuel - Final energy consumption,Patent fuel,Final energy consumption,1995,"Metric tons,  thousand",6.0,
 2946,Romania,Patent fuel - Final energy consumption,Patent fuel,Final energy consumption,1994,"Metric tons,  thousand",12.0,
 2947,Romania,Patent fuel - Final energy consumption,Patent fuel,Final energy consumption,1993,"Metric tons,  thousand",55.0,
@@ -3285,10 +3285,10 @@
 3283,Ukraine,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",2015,"Metric tons,  thousand",1.0,
 3284,Ukraine,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",2010,"Metric tons,  thousand",1.0,
 3285,Ukraine,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",2009,"Metric tons,  thousand",1.0,
-3286,Ukraine,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,,2016,"Metric tons,  thousand",0.0,
-3287,Ukraine,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,,2015,"Metric tons,  thousand",1.0,
-3288,Ukraine,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,,2010,"Metric tons,  thousand",1.0,
-3289,Ukraine,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,,2009,"Metric tons,  thousand",1.0,
+3286,Ukraine,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,Patent fuel,2016,"Metric tons,  thousand",0.0,
+3287,Ukraine,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,Patent fuel,2015,"Metric tons,  thousand",1.0,
+3288,Ukraine,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,Patent fuel,2010,"Metric tons,  thousand",1.0,
+3289,Ukraine,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,Patent fuel,2009,"Metric tons,  thousand",1.0,
 3290,Ukraine,Patent fuel - Final energy consumption,Patent fuel,Final energy consumption,2010,"Metric tons,  thousand",6.0,
 3291,Ukraine,Patent fuel - Final energy consumption,Patent fuel,Final energy consumption,2009,"Metric tons,  thousand",0.0,
 3292,Ukraine,Patent fuel - Final energy consumption,Patent fuel,Final energy consumption,2008,"Metric tons,  thousand",0.0,
@@ -3860,22 +3860,22 @@
 3858,United States,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",2004,"Metric tons,  thousand",104464.0,
 3859,United States,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",2003,"Metric tons,  thousand",100684.0,
 3860,United States,"Patent fuel - Transformation in electricity, CHP and heat plants",Patent fuel,"Transformation in electricity, CHP and heat plants",2002,"Metric tons,  thousand",77043.0,
-3861,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2009,"Metric tons,  thousand",0.0,
-3862,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2008,"Metric tons,  thousand",150.0,
-3863,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2007,"Metric tons,  thousand",123737.0,
-3864,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2006,"Metric tons,  thousand",91245.0,
-3865,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2005,"Metric tons,  thousand",116404.0,
-3866,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2004,"Metric tons,  thousand",104337.0,
-3867,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2003,"Metric tons,  thousand",100610.0,
-3868,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,,2002,"Metric tons,  thousand",77043.0,
-3869,United States,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,,2003,"Metric tons,  thousand",35.0,
-3870,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,,2009,"Metric tons,  thousand",0.0,
-3871,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,,2008,"Metric tons,  thousand",4.0,
-3872,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,,2007,"Metric tons,  thousand",333.0,
-3873,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,,2006,"Metric tons,  thousand",186.0,
-3874,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,,2005,"Metric tons,  thousand",274.0,
-3875,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,,2004,"Metric tons,  thousand",127.0,
-3876,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,,2003,"Metric tons,  thousand",39.0,
+3861,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2009,"Metric tons,  thousand",0.0,
+3862,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2008,"Metric tons,  thousand",150.0,
+3863,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2007,"Metric tons,  thousand",123737.0,
+3864,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2006,"Metric tons,  thousand",91245.0,
+3865,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2005,"Metric tons,  thousand",116404.0,
+3866,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2004,"Metric tons,  thousand",104337.0,
+3867,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2003,"Metric tons,  thousand",100610.0,
+3868,United States,Patent fuel - Transformation in electricity plants - main activity producers,Patent fuel,Patent fuel,2002,"Metric tons,  thousand",77043.0,
+3869,United States,Patent fuel - Transformation in CHP plants - main activity producers,Patent fuel,Patent fuel,2003,"Metric tons,  thousand",35.0,
+3870,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,Patent fuel,2009,"Metric tons,  thousand",0.0,
+3871,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,Patent fuel,2008,"Metric tons,  thousand",4.0,
+3872,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,Patent fuel,2007,"Metric tons,  thousand",333.0,
+3873,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,Patent fuel,2006,"Metric tons,  thousand",186.0,
+3874,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,Patent fuel,2005,"Metric tons,  thousand",274.0,
+3875,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,Patent fuel,2004,"Metric tons,  thousand",127.0,
+3876,United States,Patent fuel - Transformation in CHP plants - autoproducers,Patent fuel,Patent fuel,2003,"Metric tons,  thousand",39.0,
 3877,United States,Patent fuel - Final energy consumption,Patent fuel,Final energy consumption,2009,"Metric tons,  thousand",0.0,
 3878,United States,Patent fuel - Final energy consumption,Patent fuel,Final energy consumption,2008,"Metric tons,  thousand",0.0,
 3879,United States,Patent fuel - Final energy consumption,Patent fuel,Final energy consumption,2007,"Metric tons,  thousand",3073.0,

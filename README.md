@@ -51,7 +51,7 @@ The main point of our visualization is that it will show a global graphical over
 
 ### Exploratory Data Analysis
 
-![](Figure Milestone 1/Dataset by country.png)
+![](FigureMilestone1/Dataset_by_country.png)
 **Figure 1** - Plot of the number of dataset which contains data on a given country.
 
 ### Related work

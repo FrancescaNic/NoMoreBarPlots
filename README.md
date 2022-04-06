@@ -51,7 +51,7 @@ The main point of our visualization is that it will show a global graphical over
 
 ### Exploratory Data Analysis
 
-![](/Figure Milestone 1/Dataset by country.pdf)
+![](/Figure Milestone 1/Dataset by country.png)
 **Figure 1** - 
 
 ### Related work

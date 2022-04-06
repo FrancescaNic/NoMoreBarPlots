@@ -57,6 +57,7 @@ As mentioned in the presentation of the dataset, the Energy Statistics Database 
 ![Plot of the number of dataset which contains data on a given country.](FigureMilestone1/Dataset_by_country.png)
 **Figure 1** - Plot of the number of dataset which contains data on a given country.
 
+
 From __Figure 1__ we can see that half of the countries or areas are present in more than 50 subdatasets and that only a few countries or areas are present in less than 20 subdatasets. Furthermore, as each subdataset can be further divided into several sub-subdatasets by grouping it by energy statistic, such as exported quantity, imported quantity, final consumed quantity, etc.  This refinement in our subdatasets leads us to __Figure 2__ where we see that the median number of sub-subdatasets remains generally quite stable for each country or areas.
 
 ![](FigureMilestone1/Subdataset_by_country.png)
@@ -69,6 +70,31 @@ To complete this global analysis of the dataset, __Figure 3__ shows the number o
 ![](FigureMilestone1/Estimated_by_country.png)
 **Figure 3** - Plot of the relation between the number of estimation data per country and the number of data per country.
 
+
+We took a quick look deeper in the fuel oil dataset to see what kind of data was present.
+
+<img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_sum.png" width="500" height="300" />
+
+**Figure 4** - Plot of fuel oil exports and imports over years by summing each country's quantity.
+
+On figure 4 we see that the sum of exports and imports is not the same which implies that the difference is not 0 (figure 5). This looked a bit strange to us and we have to be aware of this kind of mistakes as we did not find a correct explanation. 
+
+
+<img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_diff.png" width="500" height="300" />
+
+**Figure 5** - Plot of fuel oil difference between exports and imports over years by summing each country's quantity.
+
+If we select only one country (e.g. Switzerland), we can visualize the exports and imports of this specific country over years (figure 6). 
+
+<img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_switzerland.png" width="500" height="300" />
+
+**Figure 6** - Plot of fuel oil exports and imports over years for Switzerland.
+
+<img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_dates.png" width="500" height="200" />
+
+**Figure 7** - Statistics of number of measures (corresponding to years) available by country.
+
+We can see in figure 7 that we have on average 25 measures for each country, which is really satisfying and will enable us to plot the data over years in our final visualization. 
 
 ### Related work
 

@@ -28,7 +28,7 @@ We have chosen to focus on the dataset, [Energy Statistics Database](http://data
 
 The data has already been processed and cleaned, the only processing we will have to do on this data is to convert it to a format that suits us better as it is available in .xml format.  This dataset is provided with an [annual questionnaire on energy statistics](https://unstats.un.org/unsd/energystats/questionnaire/documents/Energy-Questionnaire-Guidelines.pdf), which provides detailed descriptions of each energy fields and statistics.
 
->
+
 
 
 ### Problematic
@@ -51,8 +51,8 @@ The main point of our visualization is that it will show a global graphical over
 
 ### Exploratory Data Analysis
 
-![](Dataset by country.png)
-**Figure 1** - 
+![](Figure Milestone 1/Dataset by country.png)
+**Figure 1** - Plot of the number of dataset which contains data on a given country.
 
 ### Related work
 

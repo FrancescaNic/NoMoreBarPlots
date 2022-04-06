@@ -74,7 +74,6 @@ To complete this global analysis of the dataset, __Figure 3__ shows the number o
 We took a quick look deeper in the fuel oil dataset to see what kind of data was present.
 
 <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_sum.png" width="500" height="300" />
-
 **Figure 4** - Plot of fuel oil exports and imports over years by summing each country's quantity.
 
 On figure 4 we see that the sum of exports and imports is not the same which implies that the difference is not 0 (figure 5). This looked a bit strange to us and we have to be aware of this kind of mistakes as we did not find a correct explanation. 

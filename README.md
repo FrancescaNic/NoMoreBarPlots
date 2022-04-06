@@ -51,8 +51,8 @@ The main point of our visualization is that it will show a global graphical over
 
 ### Exploratory Data Analysis
 
-> Pre-processing of the data set you chose
-> - Show some basic statistics and get insights about the data
+![](Figure Milestone 1/Dataset by country.pdf)
+**Figure 1** - 
 
 ### Related work
 

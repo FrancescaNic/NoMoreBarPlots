@@ -108,7 +108,19 @@ We can see in __Figure 7__ that we have on average 25 measures for each country,
 
 **Production and Consumption**
 
+The other variables we wanted to look at are consumption and production.
 
+To remain within the framework of Fuel Oil, __Figure 8__ shows us world total consumption and production of fuel oil across each subdatasets for all country or areas. The gap between the production and consumption curves seems quite surprising. It is assumed that this is because Fuel Oil can be extracted and stored, unlike other energy sources such as electricity which must be used immediately.
+
+![](FigureMilestone1/Fuel_cons_prod.png)
+**Figure 8** - Plot of world total consumption and production of fuel oil across each subdatasets for all country or areas.
+
+To confirm this, we have also analyzed world total consumption and production of electrivity across each subdatasets for all country or areas, which results are presented in __Figure 9__. The consumption and production curves here follow the same trend, they are very close to each other, so the assumption seems correct.
+
+![](FigureMilestone1/Fuel_cons_prod.png)
+**Figure 9** - Plot of world total consumption and production of electrivity across each subdatasets for all country or areas.
+
+This is interesting to note because it proves that it is relevant to carry out a visualization by highlighting the different types of energies because they do not have the same properties.
 
 ### Related work
 

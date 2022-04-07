@@ -52,6 +52,8 @@ The main point of our visualization is that it will show a global graphical over
 
 ### Exploratory Data Analysis
 
+*Global Overview*
+
 As mentioned in the presentation of the dataset, the Energy Statistics Database contains data on exactly 244 countries or areas spread over 75 subdatasets. In this first part of the Exploratory Data Analysis we will try to give an overview of the distribution of the data across each country and file, and we will also look at the number and distribution of data that have been estimated. For ease of use, we have chosen to refer to countries or areas with a number between 1 and 244 and to subdatasets with a number between 1 and 75, this allows us to have cleaner plots and is not at all problematic as we only want to provide a global overview of the data.
 
 ![Plot of the number of dataset which contains data on a given country.](FigureMilestone1/Dataset_by_country.png)
@@ -70,6 +72,9 @@ To complete this global analysis of the dataset, __Figure 3__ shows the number o
 ![](FigureMilestone1/Estimated_by_country.png)
 **Figure 3** - Plot of the relation between the number of estimation data per country and the number of data per country.
 
+*Detailed analysis*
+
+**Exports/Imports**
 
 We took a quick look deeper in the fuel oil dataset to see what kind of data was present.
 <p align="center">
@@ -100,6 +105,10 @@ If we select only one country (e.g. Switzerland), we can visualize the exports a
 **Figure 7** - Statistics of number of measures (corresponding to years) available by country.
 
 We can see in __Figure 7__ that we have on average 25 measures for each country, which is really satisfying and will enable us to plot the data over years in our final visualization. 
+
+**Production and Consumption**
+
+
 
 ### Related work
 

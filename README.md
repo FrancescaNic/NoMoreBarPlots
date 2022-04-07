@@ -86,20 +86,20 @@ We took a quick look deeper in the fuel oil dataset to see what kind of data was
 On __Figure 4__ we see that the sum of exports and imports is not the same which implies that the difference is not 0 (__Figure 5__). This looked a bit strange to us and we have to be aware of this kind of mistakes as we did not find a correct explanation. 
 
 <p align="center">
-    <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_diff.png" />
+    <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_diff.png" width="400" height="250" />
 </p>
 
 **Figure 5** - Plot of fuel oil difference between exports and imports over years by summing each country's quantity.
 
 If we select only one country (e.g. Switzerland), we can visualize the exports and imports of this specific country over years (__Figure 6__). 
 <p align="center">
-    <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_switzerland.png" />
+    <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_switzerland.png" width="400" height="250" />
 </p>
 
 **Figure 6** - Plot of fuel oil exports and imports over years for Switzerland.
 
 <p align="center">
-    <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_dates.png" />
+    <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_dates.png" width="400" height="150" />
 </p>
 
 **Figure 7** - Statistics of number of measures (corresponding to years) available by country.

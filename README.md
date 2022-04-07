@@ -118,7 +118,7 @@ To remain within the framework of Fuel Oil, __Figure 8__ shows us world total co
 
 **Figure 8** - Plot of world total consumption and production of fuel oil across each subdatasets for all country or areas.
 
-To confirm this, we have also analyzed world total consumption and production of electrivity across each subdatasets for all country or areas, which results are presented in __Figure 9__. The consumption and production curves here follow the same trend, they are very close to each other, so the assumption seems correct.
+To confirm this, we have also analyzed world total consumption and production of electrivity across each subdatasets for all country or areas, which results are presented in __Figure 9__. The consumption and production curves here follow the same trend, they are very close to each other, so the assumption seems correct. Also, note that the production and consumption of electricity presents an increasing trend unlike that of Fuel Oil which decreases.
 
 <p align="center">
     <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Elec_cons_prod.png" />

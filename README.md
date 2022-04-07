@@ -72,6 +72,7 @@ To complete this global analysis of the dataset, __Figure 3__ shows the number o
 ![](FigureMilestone1/Estimated_by_country.png)
 **Figure 3** - Plot of the relation between the number of estimation data per country and the number of data per country.
 
+
 *Detailed analysis*
 
 **Exports/Imports**
@@ -106,18 +107,25 @@ If we select only one country (e.g. Switzerland), we can visualize the exports a
 
 We can see in __Figure 7__ that we have on average 25 measures for each country, which is really satisfying and will enable us to plot the data over years in our final visualization. 
 
+
 **Production and Consumption**
 
 The other variables we wanted to look at are consumption and production.
 
 To remain within the framework of Fuel Oil, __Figure 8__ shows us world total consumption and production of fuel oil across each subdatasets for all country or areas. The gap between the production and consumption curves seems quite surprising. It is assumed that this is because Fuel Oil can be extracted and stored, unlike other energy sources such as electricity which must be used immediately.
 
-![](FigureMilestone1/Fuel_cons_prod.png)
+<p align="center">
+    <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_cons_prod.png" width="500" height="200" />
+</p>
+
 **Figure 8** - Plot of world total consumption and production of fuel oil across each subdatasets for all country or areas.
 
 To confirm this, we have also analyzed world total consumption and production of electrivity across each subdatasets for all country or areas, which results are presented in __Figure 9__. The consumption and production curves here follow the same trend, they are very close to each other, so the assumption seems correct.
 
-![](FigureMilestone1/Fuel_cons_prod.png)
+<p align="center">
+    <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Elec_cons_prod.png" width="500" height="200" />
+</p>
+
 **Figure 9** - Plot of world total consumption and production of electrivity across each subdatasets for all country or areas.
 
 This is interesting to note because it proves that it is relevant to carry out a visualization by highlighting the different types of energies because they do not have the same properties.

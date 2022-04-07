@@ -93,7 +93,7 @@ On __Figure 4__ we see that the sum of exports and imports is not the same which
 
 If we select only one country (e.g. Switzerland), we can visualize the exports and imports of this specific country over years (__Figure 6__). 
 <p align="center">
-    <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_switzerland.png" width="375" height="225" />
+    <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_switzerland.png" width="375" height="240" />
 </p>
 
 **Figure 6** - Plot of fuel oil exports and imports over years for Switzerland.

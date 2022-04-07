@@ -78,7 +78,7 @@ To complete this global analysis of the dataset, __Figure 3__ shows the number o
 
 We took a quick look deeper in the fuel oil dataset to see what kind of data was present.
 <p align="center">
-  <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_sum.png" width="400" height="150" />
+  <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_sum.png" width="400" height="175" />
 </p>
 
 **Figure 4** - Plot of fuel oil exports and imports over years by summing each country's quantity.

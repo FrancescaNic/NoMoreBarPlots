@@ -34,7 +34,7 @@ The data has already been processed and cleaned, the only processing we will hav
 
 ### Problematic
 
-Energy is a very important topic nowadays so we thought this could be interesting to develop a visual representation of energy related data. We also want to give a global and complete vision of the world energy network. 
+Energy is a very important topic nowadays so we thought this could be interesting to develop a visual representation of energy related data. We also want to give a global and complete vision of the world energy network.
 
 What are the energy exchanges (production/consumption) between countries or even between continents?
 Which types of energy are most present (produced/consumed), in which countries and the diversification over time?
@@ -44,7 +44,7 @@ Are the most developed countries more advanced in the production of renewable en
 
 How to improve and optimize the exchange of energy resources between countries?
 
-We target audience in the following way: someone interested in knowing more about the energy network. The visualization must be adapted to an audience not educated on the subject. 
+We target audience in the following way: someone interested in knowing more about the energy network. The visualization must be adapted to an audience not educated on the subject.
 The idea is to have the audience discover the subject in its globally first, then to have an interactive format to deepen some points.
 
 The main point of our visualization is that it will show a global graphical overview of energy related quantities and one can find more information by interacting with the map to have more detailed knowledge about specific data.
@@ -83,7 +83,7 @@ We took a quick look deeper in the fuel oil dataset to see what kind of data was
 
 **Figure 4** - Plot of fuel oil exports and imports over years by summing each country's quantity.
 
-On __Figure 4__ we see that the sum of exports and imports is not the same which implies that the difference is not 0 (__Figure 5__). This looked a bit strange to us and we have to be aware of this kind of mistakes as we did not find a correct explanation. 
+On __Figure 4__ we see that the sum of exports and imports is not the same which implies that the difference is not 0 (__Figure 5__). This looked a bit strange to us and we have to be aware of this kind of mistakes as we did not find a correct explanation.
 
 <p align="center">
     <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_diff.png" width="400" height="250" />
@@ -91,7 +91,7 @@ On __Figure 4__ we see that the sum of exports and imports is not the same which
 
 **Figure 5** - Plot of fuel oil difference between exports and imports over years by summing each country's quantity.
 
-If we select only one country (e.g. Switzerland), we can visualize the exports and imports of this specific country over years (__Figure 6__). 
+If we select only one country (e.g. Switzerland), we can visualize the exports and imports of this specific country over years (__Figure 6__).
 <p align="center">
     <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone1/Fuel_Oil_exports_imports_switzerland.png" width="375" height="240" />
 </p>
@@ -104,7 +104,7 @@ If we select only one country (e.g. Switzerland), we can visualize the exports a
 
 **Figure 7** - Statistics of number of measures (corresponding to years) available by country.
 
-We can see in __Figure 7__ that we have on average 25 measures for each country, which is really satisfying and will enable us to plot the data over years in our final visualization. 
+We can see in __Figure 7__ that we have on average 25 measures for each country, which is really satisfying and will enable us to plot the data over years in our final visualization.
 
 <br/> **Production and Consumption**
 
@@ -145,8 +145,13 @@ We don't have a precise source of inspiration, but what we imagine is similar to
 
 ## Milestone 2 (7th May, 5pm)
 
-**10% of the final grade**
+### Visualization 2: Bubble chart race
 
+
+![](FigureMilestone2/visualisation 2.jpg)
+**Figure 1** - Sketch of the bubble chart race visualization.
+
+À travers cette visualization, nous voulons proposer un moyen de visualiser l'évolution d'une quantité énergétique (comme la consommation, la production, ... d'une énergie donnée) à travers le temps, tout en ayant une vision d'ensemble sur les différents pays. Pour cela, nous avons choisi de créer une bubble chart race, où chaque bubble correspond à un pays et la quantité énergétique associé est représenté par le rayon de chaque bubble. Comme nous avons seulement des quantités annuelles, nous interpolerons linéairement ces quantités de manières à avoir une animation de la bubble chart race. Pour réaliser notre bubble chart race, nous aurons besoin de nous inspirés des lectures de la semaines 5 (pour ce qui des intéractions), ainsi que certaines implémentations de bubble charts et de bar chart race disponibles sur D3.js. De façon à ne pas surcharger notre visualisation, nous avons de plus choisi de ne pas préciser le noms ou l'abréviation du noms de chaque pays à l'intérieur de chaque bubble de manière à n'afficher que les pays avec les plus grande quantité énergétique. De plus, dans nous afficherons aussi les 5 plus grandes quantités et les pays associés dans le coin en haut à gauche de la visualisation (le chiffre 5 est pour l'instant un peu arbitraire, il dépendra surtout du layout le plus adapté que l'on trouvera). Nous avons entièrement conscience que le fait de ne pas afficher le noms de tous les pays limite l'information transmise par notre visualisation. Pour palier à ce problème, nous avons plusieurs idées que nous allons implémenter une fois que la partie principale de cette visualisation sera implémenté. En effet, nous allons rajouter une option permettant de filter les pays que nous voulons voir apparaître dans la bubble chart race, soit en sélectionnant les pays un par un, soit en choisissant les continents pour lesquels nous voulons faire participer les pays à la bubble chart race. Une autre option que nous rajouterons sera de pouvoir mettre en évidence un pays en déplaçant la bubble associée à l'écart des autres et en affichant en dessous la quantité énergétiques associée au pays sélectionné. La dernière option que nous voulons implémenter sera que proposer à l'utilisateur de choisir une opération à appliquer à la quantité énergétique ou de choisir une seconde quantité énergétique à appliquer au deux quantités. Pour illustrer cela, on peux imaginer par exemple avoir une bubble chart race où la quantité d'intérêt serait la différence entre la production et la consommation d'une certaine énergie ou encore une bubble chart race où la quantité d'intérêt serait l'inverse de la quantité de pétrole consommé, de façon à mettre en avant les pays qui consomme le moins de pétrole et non pas ceux qui consomme le plus. Cette dernière option aurait beaucoup de degré de liberté et pourrait conduire à des comparaisons qui n'aurait à priori pas de sens, comme regarder la différence entre la production de pétrole et les exportations d'électricité issue de l'éolien, mais cette aspect serait à la charge de l'utilisateur auxquel nous laisserions la possibilité de mettre les données en relation entre elles comme bon lui semble. Pour le choix de la palette de couleurs, nous allons nous servir principalement des slides de la semaine 6, chaque continents aura sa couleur. De plus, pour mettre en évidence le fait que certaines quantités sont estimées, nous avons choisis d'afficher les bubbles associées en blanc de manière à rendre visuel cette aspect des données. Si pour un pays donné, la quantité énergétique d'intérêt passe d'une valeur estimée é une valeur exacte, ou inversement, nous effectuerons une transition linéaire entre le blanc et la couleur du continent associé.
 
 ## Milestone 3 (4th June, 5pm)
 
@@ -157,4 +162,3 @@ We don't have a precise source of inspiration, but what we imagine is similar to
 
 - < 24h: 80% of the grade for the milestone
 - < 48h: 70% of the grade for the milestone
-

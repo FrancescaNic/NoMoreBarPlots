@@ -1,0 +1,2 @@
+- Transparence des pays quand on clique dessus
+- Cliquer sur la carte pour revenir sur la carte pour choisir un autre pays

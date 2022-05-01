@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" /> /* Icons
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" /> /* Leaflet
+    <link rel="stylesheet" href="leaflet-sidebar.css" /> /* Sidebar
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+
+  <body>
+    <div id="sidebar" class="sidebar">
+      <div class="sidebar-tabs">
+        <ul role="tablist">
+          <li class="active"><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
+          <li><a href="#timespan" role="tab" title="Timeline Filter"><i class="fa-solid fa-clock"></i></a></li>
+					<li><a href="viz1.html" role="tab" title="Viz1"><i class="fa-solid fa-earth-europe"></i></a></li>
+          <li><a href="viz2.html" role="tab" title="Viz2"><i class="fa-solid fa-fire-flame-simple"></i></a></li>
+					<li><a href="data.html" role="tab" title="Data Description"><i class="fa-solid fa-database"></i></a></li>
+					<li><a href="team.html" role="tab" title="Team"><i class="fa-solid fa-people-group"></i></a></li>
+          <li><a href="https://github.com/com-480-data-visualization/datavis-project-2022-NoMoreBarPlots"
+              role="tab" target="_blank" title="Github Repository"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-content">
+        <div class="sidebar-pane active" id="home">
+          <h1 class="sidebar-header">
+            Environment stats
+            <span class="sidebar-close"><i class="fa fa-caret-left"></i></span>
+          </h1>
+
+          <p>Intro
+            <a href="http://data.un.org/Explorer.aspx">United Nations</a>.
+          </p>
+        </div>
+
+        <div class="sidebar-pane" id="timespan">
+					<h1 class="sidebar-header">
+						Time slider
+						<span class="sidebar-close"><i class="fa fa-caret-left"></i></span>
+					</h1>
+					<input type="range" min="1980" max="2022" value="1980" class="slider" id="myRange">
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <div id="map-holder"></div>
+    <div class="box transform" id="abc"></div>
+
+
+    <script src="animation.js"></script>
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="leaflet-sidebar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js"></script>
+    <script type="text/javascript" src="countries.js"></script>
+    <script src="myscript.js"></script>
+  </body>
+</html>

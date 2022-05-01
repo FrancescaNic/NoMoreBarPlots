@@ -1,0 +1,462 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115812583-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+    gtag('config', 'UA-115812583-1', {
+      'referrer' : document.referrer.split('?')[0],
+    });
+  </script>
+	<meta charset="utf-8">
+	<title>Me Too Rising</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:title" content="Me Too Rising"/>
+	<meta name="twitter:description" content="A visualization of the Me Too movement from Google Trends"/>
+	<meta name="og:url" content="https://metoorising.withgoogle.com"/>
+	<meta name="og:title" content="Me Too Rising"/>
+  <meta name="twitter:image" content="https://metoorising.withgoogle.com/assets/images/social-twitter.png"/>
+	<meta name="og:description" content="A visualization of the Me Too movement from Google Trends"/>
+	<meta name="description" content="A visualization of the Me Too movement from Google Trends"/>
+  <meta name="og:image" content="https://metoorising.withgoogle.com/assets/images/social-default.png"/>
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+	<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+	<link rel="stylesheet" href="build/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+</head>
+<body>
+<div id="incompatible">
+	<div class="incompatible-wrapper">
+		<h1 class="incompatible-title intro-header">Me Too Rising</h1>
+    <h2 class="incompatible-subtitle intro-subheader incompatible-horizontal">
+
+      <svg class="rotate-phone-icon" version="1.1" width="70px" height="48px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 110 76" style="enable-background:new 0 0 110 76;" xml:space="preserve">
+        <style type="text/css">
+          .st0{fill:#fcdcbf;}
+        </style>
+                <g>
+                  <g>
+                    <g>
+                      <path class="st0" d="M65.3,13.8H43.6c-2.4,0-4.3,1.9-4.3,4.4v39.2c0,2.4,1.9,4.3,4.3,4.3l21.7,0c2.4,0,4.3-1.9,4.3-4.4V18.1
+                C69.7,15.7,67.7,13.8,65.3,13.8z M65.3,52.9H43.6V22.5h21.7V52.9z M87.8,21.3v-6.7l-9.9,9.9l9.9,9.7v-8.5
+                c6.2,1,10.8,6.4,10.8,12.9c0,6.5-4.7,11.8-10.8,12.9v4.4c8.6-1.1,15.2-8.4,15.2-17.3C103,29.7,96.4,22.3,87.8,21.3z M21.2,51.7
+                c-6.2-1-10.8-6.4-10.8-12.9S15,27,21.2,25.9v-4.4C12.6,22.6,6,29.9,6,38.8c0,8.9,6.6,16.2,15.2,17.3v6.7l9.9-9.9l-9.9-9.7V51.7z"
+                      />
+                    </g>
+                  </g>
+                </g>
+        </svg>
+
+      Me Too Rising can only be viewed in portrait.<br>Please rotate your phone.
+    </h2>
+		<h2 class="incompatible-subtitle intro-subheader">
+		  Your browser is not compatible.
+		  <br>
+		  Try upgrading to a modern browser like <a href="https://www.google.com/chrome/?brand=CHBD" target="_blank">Google Chrome</a>.
+		</h2>
+	</div>
+	<div class="incompatible-footer">
+	  <a id="timeline-logo-link" href="https://trends.google.com/trends/explore?q=metoo" target="_blank"><img src="assets/images/logo-trends.png" /></a>
+    <div class="timeline-privacy-link incompatible-footer-right" id="timeline-privacy-link">
+      <a target="_blank" href="https://policies.google.com/privacy?hl=en&gl=us">Privacy</a> & <a target="_blank" href="https://policies.google.com/terms?hl=en&gl=us">Terms</a>
+    </div>
+	</div>
+</div>
+<script type="text/javascript">
+	var fallbackEl = document.getElementById('incompatible');
+	// TODO customevent undefined in IE8
+	// var event = new CustomEvent('pageload', {
+		// detail: {
+			// event_category: 'Intro Error',
+			// event_label: '/intro_error',
+		// }
+	// });
+
+  function detectWebGLContext () {
+      // Create canvas element. The canvas is not added to the
+      // document itself, so it is never displayed in the
+      // browser window.
+      var canvas = document.createElement("canvas");
+      // Get WebGLRenderingContext from canvas element.
+      var gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
+      // Report the result.
+      if (!gl || !gl instanceof WebGLRenderingContext) {
+        // Browser or device does not support WebGL
+        return false;
+      }
+
+      return true;
+  }
+  var doesBrowserSupportWebGL = detectWebGLContext();
+
+	if (!(window.AudioContext || window.webkitAudioContext) || !doesBrowserSupportWebGL) {
+		fallbackEl.setAttribute('style', 'display: block;');
+    // window.dispatchEvent(event);
+    // gtag('event', 'pageload', event.detail);
+	}
+</script>
+<div id="globe"></div>
+<div id="timeline">
+  <a class="timeline-logo-link" id="timeline-logo-link" href="https://trends.google.com/trends/explore?q=metoo" target="_blank"><img src="assets/images/logo-trends.png" /></a>
+  <div class="timeline-col timeline-col-left">
+    <div class="timeline-privacy-link" id="timeline-privacy-link">
+      <a target="_blank" href="https://policies.google.com/privacy?hl=en&gl=us">Privacy</a> & <a target="_blank" href="https://policies.google.com/terms?hl=en&gl=us">Terms</a>
+    </div>
+    <div class="timeline-hide-mobile">Trending searches over time</div>
+  </div>
+
+</div>
+<div class="timeline-canvas-wrap">
+  <canvas id="timelineCanvas"></canvas>
+</div>
+<div id="intro">
+  <div class="intro-wrapper">
+    <div class="intro-inner">
+      <p id="intro-line-1">What would happen if one woman told the truth<span>about her life?</span></p>
+      <p id="intro-line-2">The world would split open.</p>
+      <p id="intro-line-3">– Muriel Rukeyser, “Käthe Kollwitz”</p>
+    </div>
+  </div>
+  <div class="intro-main intro-main--site">
+    <div class="intro-header">Me Too Rising</div>
+    <div class="intro-subheader">A visualization of the movement <br> from Google Trends</div>
+    <div class="intro-btn" id="intro-btn"><span>Explore</span></div>
+  </div>
+  <div class="intro-main intro-main--embed">
+    <div class="intro-icon"><img src="assets/images/icon-finger-drag.png" /></div>
+    <div class="intro-subheader">Spin the globe to see where “Me&nbsp;Too” is trending around the world.</div>
+    <div class="intro-btn" id="intro-btn-embed"><span>Start<span></div>
+  </div>
+</div>
+<div id="home">
+  <div id="home-nav" class="nav">
+  <div class="nav-left nav-col nav--main">
+    <div class='nav-header'>
+      <span>Me Too Rising</span>
+      <svg version="1.1" id="icon-sound" class="icon-sound active" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      	 viewBox="0 0 384 384" style="enable-background:new 0 0 384 384;" xml:space="preserve">
+          <path d="M288,192c0-37.653-21.76-70.187-53.333-85.867v171.84C266.24,262.187,288,229.653,288,192z"/>
+          <polygon points="0,128 0,256 85.333,256 192,362.667 192,21.333 85.333,128 			"/>
+          <path d="M234.667,4.907V48.96C296.32,67.307,341.333,124.373,341.333,192S296.32,316.693,234.667,335.04v44.053
+      				C320.107,359.68,384,283.413,384,192S320.107,24.32,234.667,4.907z"/>
+      </svg>
+      <svg version="1.1" id="icon-sound-off" class="icon-sound" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      	 width="461.55px" height="461.55px" viewBox="0 0 461.55 461.55" style="enable-background:new 0 0 461.55 461.55;"
+      	 xml:space="preserve">
+      		<path d="M345.525,229.5c0-45.9-25.5-84.15-63.75-102v56.1l63.75,63.75C345.525,239.7,345.525,234.6,345.525,229.5z M409.275,229.5
+      			c0,22.95-5.1,45.9-12.75,66.3l38.25,38.25c17.85-30.6,25.5-68.85,25.5-107.1c0-109.65-76.5-201.45-178.5-224.4V56.1
+      			C355.725,81.6,409.275,147.9,409.275,229.5z M34.425,0L1.275,33.15L121.125,153H1.275v153h102l127.5,127.5V262.65L340.425,372.3
+      			c-17.851,12.75-35.7,22.95-58.65,30.601v53.55c35.7-7.65,66.3-22.95,94.35-45.9l51,51l33.15-33.149l-229.5-229.5L34.425,0z
+      			 M230.775,25.5l-53.55,53.55l53.55,53.55V25.5z"/>
+      </svg>
+    </div>
+    <div class="nav-subheader">
+      A visualization of the movement from Google Trends
+    </div>
+  </div>
+  <div class="nav-left nav-col nav--embed">
+    <a href="https://metoorising.withgoogle.com" target="_blank" class="nav-visit-button">Visit MeToo Rising</a>
+  </div>
+  <div class="nav-right nav-col">
+    <a id="resources-btn" class="nav-link nav-link-long"><span>Sexual assault resources</span></a>
+    <a class='nav-link nav-link-circle' id="fb-share">
+      <svg id="icon-facebook" xmlns="http://www.w3.org/2000/svg" width="9" height="18" viewBox="0 0 9 18">
+        <path class="icon-facebook-cls-1" d="M1271.84,61V52.789h2.65l0.4-3.2h-3.05V47.547a1.306,1.306,0,0,1,1.53-1.558H1275V43.126a20.979,20.979,0,0,0-2.38-.126c-2.35,0-3.96,1.491-3.96,4.23v2.36H1266v3.2h2.66V61h3.18Z" transform="translate(-1266 -43)"/>
+      </svg>
+    </a>
+    <a class='nav-link nav-link-circle' id="twitter-share">
+      <svg id="icon-twitter" xmlns="http://www.w3.org/2000/svg" width="23" height="18" viewBox="0 0 23 18">
+        <path class='icon-twitter-path' d="M22.1606479,2.12968323 C21.3450484,2.49108161 20.4699219,2.73617786 19.5504399,2.84560035 C20.4892935,2.28338889 21.2079625,1.39164264 21.5485771,0.332322844 C20.6679107,0.852966795 19.6958175,1.23102114 18.6600334,1.43596201 C17.8306022,0.55113162 16.6508162,0 15.3422362,0 C12.8317468,0 10.796206,2.03554079 10.796206,4.5446543 C10.796206,4.90051275 10.8363614,5.24807943 10.9139202,5.58043849 C7.13641828,5.39070524 3.78679374,3.58088908 1.54493616,0.830807111 C1.15305011,1.50102893 0.930113552,2.28197675 0.930113552,3.11560813 C0.930113552,4.69282003 1.73325727,6.08446267 2.95182264,6.89865002 C2.20682999,6.87373848 1.50615671,6.66879761 0.892746242,6.32814678 L0.892746242,6.38492192 C0.892746242,8.58662413 2.46025422,10.4241399 4.53870224,10.8423496 C4.15789603,10.9448201 3.75634228,11.0015952 3.34092062,11.0015952 C3.04737723,11.0015952 2.76350153,10.9725197 2.48516576,10.9171204 C3.06396078,12.7241848 4.74226718,14.0382685 6.73073674,14.0742961 C5.17568453,15.2928615 3.21491458,16.0170704 1.08523134,16.0170704 C0.718293043,16.0170704 0.356858456,15.9949107 0.001,15.9547553 C2.01300517,17.2467156 4.40165256,18 6.96891714,18 C15.3312288,18 19.9022068,11.0736142 19.9022068,5.06671039 L19.8869629,4.47821145 C20.7800851,3.84119295 21.5527411,3.0408373 22.1606479,2.12968323 Z"/>
+      </svg>
+    </a>
+    <div class='nav-link nav-link-circle' id="about-btn">
+      <svg id='icon-about' xmlns="http://www.w3.org/2000/svg" width="3" height="12.812" viewBox="0 0 2.38 12.812">
+        <path class="icon-about-cls-1" d="M1383.3,59.4h2.4V51.72h-2.4V59.4Zm0-10.24h2.4V46.6h-2.4v2.56Z" transform="translate(-1383.31 -46.594)"/>
+      </svg>
+    </div>
+  </div>
+</div>
+<div class="mobile-nav-btn-wrapper">
+  <div id="mobile-menu-btn" class="mobile-nav-btn">
+    <span></span>
+  </div>
+</div>
+<div class="mobile-menu-overlay" id="mobile-nav-overlay">
+  <div class="mobile-menu-backdrop"></div>
+  <div class="mobile-menu-overlay-wrapper">
+    <div class="mobile-nav-page-links">
+      <a id="resources-btn-mobile" class='nav-link'>Sexual assault resources</a>
+      <div id="about-btn-mobile" class='nav-link'>About</div>
+      <div id="fb-share-mobile" class='nav-link'>Share on Facebook</div>
+      <div id="twitter-share-mobile" class='nav-link'>Share on Twitter</div>
+    </div>
+    <div class="mobile-menu-footer">
+      <a class="mobile-menu-logo-link" href="https://trends.google.com/trends/explore?q=metoo" target="_blank"><img class="icon-trends" src="assets/images/trends-mobile.png" /></a>
+    </div>
+  </div>
+</div>
+  <div class="cities-page-close" id="cities-close-btn">
+  <div class="mobile-close-button">
+    <span></span>
+  </div>
+</div>
+<div class="cities-wrapper" id="cities-wrapper">
+  <div id="cities-slider" class="cities-slider">
+    <div class="cities-slider-option active" id="top-cities">
+      <span class="cities-slider-option--desktop">Top searching cities</span>
+      <span class="cities-slider-option--mobile">Global</span>
+    </div>
+    <div class="cities-slider-option" id="near-cities">
+      <span class="cities-slider-option--desktop">Cities near you</span>
+      <span class="cities-slider-option--mobile">Near you</span>
+    </div>
+  </div>
+  <div class="cities-slider-border" id="slider"></div>
+  <div id="cities-list-top" class="cities-list active">
+      <ul class="cities">
+        <li class="city" data-city-1 data-city=0><span></span></li>
+        <li class="city" data-city-2 data-city=1><span></span></li>
+        <li class="city" data-city-3 data-city=2><span></span></li>
+        <li class="city" data-city-4 data-city=3><span></span></li>
+        <li class="city" data-city-5 data-city=4><span></span></li>
+      </ul>
+  </div>
+  <div id="cities-list-near" class="cities-list">
+      <ul class="cities">
+        <li class="city" data-near-city-1 data-near-city=0><span></span></li>
+        <li class="city" data-near-city-2 data-near-city=1><span></span></li>
+        <li class="city" data-near-city-3 data-near-city=2><span></span></li>
+        <li class="city" data-near-city-4 data-near-city=3><span></span></li>
+        <li class="city" data-near-city-5 data-near-city=4><span></span></li>
+      </ul>
+  </div>
+  <div class="cities-loader" id="near-cities-loader">
+    <div class="loader"></div>
+  </div>
+</div>
+<div class="cities-btn-mobile" id="cities-btn">
+  <span>Explore top searching cities</span>
+</div>
+  <div class="tooltip" id="tooltip"></div>
+</div>
+<div class="timeline-mobile" id="timeline-mobile">
+</div>
+<div id="city-overlay" class="city-overlay">
+  <div class="city-background" id="city-overlay-background"></div>
+  <div id="city-overlay-close" class="city-overlay-close">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+        <path d="M0 0h48v48H0z" fill="none"/>
+        <path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-2 35.86C14.11 38.88 8 32.16 8 24c0-1.23.15-2.43.42-3.58L18 30v2c0 2.21 1.79 4 4 4v3.86zm13.79-5.07C35.28 33.17 33.78 32 32 32h-2v-6c0-1.1-.9-2-2-2H16v-4h4c1.1 0 2-.9 2-2v-4h4c2.21 0 4-1.79 4-4v-.83c5.86 2.37 10 8.11 10 14.83 0 4.16-1.6 7.94-4.21 10.79z"/>
+    </svg>
+    <span>Back to globe</span>
+  </div>
+  <div class="city-overlay-wrapper">
+    <div id="city-name" class="overlay-city-name city-large">
+      <div id="overlay-city"></div>
+      <div id="overlay-country"></div>
+    </div>
+    <div id="overlay-results-no-results">
+      “MeToo” was not trending in this city on this date,<br>
+      which is why past Google Search results do not appear here.
+    </div>
+    <div id="overlay-results-title" class="overlay-results-title">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+          <path d="M31 28h-1.59l-.55-.55C30.82 25.18 32 22.23 32 19c0-7.18-5.82-13-13-13S6 11.82 6 19s5.82 13 13 13c3.23 0 6.18-1.18 8.45-3.13l.55.55V31l10 9.98L40.98 38 31 28zm-12 0c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9z"/>
+          <path d="M0 0h48v48H0z" fill="none"/>
+      </svg>
+      <span id="search-results-date-title">Search results from <span class="search-results-date"></span></span>
+    </div>
+    <div id="overlay-results">
+    </div>
+    <div class="overlay-buttons">
+      <a class="overlay-button" data-button-all target="_blank">
+        <span class="wrap">See <span class="all-text-all">all </span>search results <span class="all-text-date"></span></span>
+      </a>
+      <a class="overlay-button" data-button-follow target="_blank">
+        <span><span>Follow MeToo in </span><span data-button-follow-city></span></span>
+      </a>
+    </div>
+    <div class="overlay-legal" data-city-legal>
+      These are search results from the query: “<span class="location"></span> <span>#MeToo Movement” from</span> <span class="search-results-date"></span>.
+    </div>
+    <div class="overlay-footerlinks">
+     <a class="timeline-logo-link" href="https://trends.google.com/trends/explore?q=metoo" target="_blank"><img src="assets/images/logo-trends.png" /></a>
+      <div class="timeline-privacy-link">
+        <a target="_blank" href="https://policies.google.com/privacy?hl=en&gl=us">Privacy</a> & <a target="_blank" href="https://policies.google.com/terms?hl=en&gl=us">Terms</a>
+      </div>
+     </div>
+  </div>
+  <div id="arrow-prev" class="overlay-arrow arrow-prev">
+    <span class="location">Jump to new city</span>
+    <span class="arrow-wrap">
+      <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="10.812" height="17.124" viewBox="0 0 10.812 17.124">
+        <path class="arrow-cls-1" d="M9.6,424.5l9.686-8.55,1.107,0.978-9.686,8.549Zm0,0,1.107-.977,9.686,8.549-1.107.978Z" transform="translate(-9.594 -415.938)"/>
+      </svg>
+    </span>
+  </div>
+  <div id="arrow-next" class="overlay-arrow arrow-next">
+    <span class="location">Jump to new city</span>
+    <span class="arrow-wrap">
+      <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="10.812" height="17.124" viewBox="0 0 10.812 17.124">
+        <path class="arrow-cls-1" d="M9.6,424.5l9.686-8.55,1.107,0.978-9.686,8.549Zm0,0,1.107-.977,9.686,8.549-1.107.978Z" transform="translate(-9.594 -415.938)"/>
+      </svg>
+     </span>
+    </div>
+</div>
+<div id="about-page" class="page">
+  <div class="page-inner">
+    <div id="about-close" class="page-close">
+      <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" width="10.72" height="10.719" viewBox="0 0 10.72 10.719">
+        <path class="icon-close-cls-1" d="M1388.04,58.115l-4.02-4.026-3.97,3.964-1.34-1.342,3.97-3.964-4.03-4.025,1.32-1.321,4.03,4.026,3.96-3.964,1.34,1.342-3.96,3.964,4.02,4.026Z" transform="translate(-1378.66 -47.406)"/>
+      </svg>
+      <div class="mobile-close-button">
+        <span></span>
+      </div>
+    </div>
+    <div class="page-wrapper page-wrapper--about">
+      <div id="about-title" class="page-title">About the project</div>
+      <div id="about-body" class="page-body">
+        <p>
+          <b>“I know exactly how you feel. That happened to me too.”</b> – Tarana Burke,  Originator of Me Too
+        </p>
+        <p>
+          Few topics have generated as much awareness of sexual assault than the movement, Me Too. What started as a simple statement of empathy from one survivor to another is changing how the world is listening to survivors of sexual violence, assault and harassment.
+        </p>
+        <p>
+        In recognition of Sexual Assault Awareness Month, <a id="about-trends-link" class="link" href="https://trends.google.com/trends/" target="_blank">Google Trends</a> data was used to create a visualization of Google Search interest in “MeToo” over time. This data represents global trends of people searching for the movement from the top 300 searching cities every day. (The cities most searching for “MeToo” are cities with the highest proportion of search interest in “MeToo”, relative to all searches made in the city in the given time period—October 1, 2017 - the present day.)
+        </p>
+        <p>
+          Although global awareness of sexual assault and harassment is a crucial first step, awareness alone cannot fix the problem. To learn more or get help, please go to <a id="about-resources-link">sexual assault resources</a>.
+        </p>
+        <p class="about-page-embed-line">
+          To embed this experience on your site, <a id="embed-link">click here</a>.
+          <div id="iframe-code">
+            <textarea readonly="readonly"></textarea><br>
+            <div id="copy-embed" class="intro-btn visible"><span>Copy<span></div>
+        </div>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="resources-page" class="page">
+  <div class="page-inner">
+    <div id="resources-close" class="page-close">
+      <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" width="10.72" height="10.719" viewBox="0 0 10.72 10.719">
+        <path class="icon-close-cls-1" d="M1388.04,58.115l-4.02-4.026-3.97,3.964-1.34-1.342,3.97-3.964-4.03-4.025,1.32-1.321,4.03,4.026,3.96-3.964,1.34,1.342-3.96,3.964,4.02,4.026Z" transform="translate(-1378.66 -47.406)"/>
+      </svg>
+      <div class="mobile-close-button">
+        <span></span>
+      </div>
+    </div>
+    <div class="page-wrapper">
+      <div id="resources-title" class="page-title">Sexual assault resources</div>
+      <div id="resources-body" class="page-body">
+        <h4>For US citizens:</h4>
+        <ul>
+          <li>If you need to talk to someone now, call the National Sexual Assault Hotline at 1-800-656-4673, available 24 hours everyday.  Or, <a href="https://hotline.rainn.org/online/terms-of-service.jsp" target="_blank">chat live</a>. </li>
+          <li>For more information about sexual assault in general, <a href="https://www.rainn.org/about-sexual-assault" target="_blank">visit RAINN</a>. </li>
+        </ul>
+        <h4>For international citizens:</h4>
+        <ul>
+          <li>If you need to talk to someone now and aren’t in the US, you can still <a href="https://hotline.rainn.org/online/terms-of-service.jsp" target="_blank">chat live</a> with RAINN (in English or Spanish).</li>
+          <li>For more services and support, please visit <a href="http://www.wave-network.org" target="_blank">Women Against Violence Europe</a> and <a href="http://www.gnws.org" target="_blank">Global Network of Women’s Shelters</a>. </li>
+        </ul>
+        <h4>For additional links related to sexual assault, violence and harassment please refer to this list of resources curated by Tarana Burke:</h4>
+        <ul id="additional-resources">
+        </ul>
+        <!-- <div class="page-section">
+          <div class="page-section-title">
+            <b>Help a friend</b>
+          </div>
+          <div class="page-section-description">
+            Sometimes all you need to do to help is to be there. If someone you know has suffered from sexual assault or violence, talk to them, let them know you hear them, and share the following list of resources for additional support.
+          </div>
+          <a class="page-section-btn">
+            <span class="body"><b>Get resources</b></span>
+          </a>
+        </div>
+        <div class="page-section">
+          <div class="page-section-title">
+            <b>Help yourself</b>
+          </div>
+          <div class="page-section-description">
+            Look for an organization that helps survivors like you. In the meantime, try talking about your experience with someone you trust, know that it was not your fault and that you should feel no shame for someone else’s behavior.
+          </div>
+          <a class="page-section-btn">
+            <span class="body"><b>Get resources</b></span>
+          </a>
+        </div>
+        <div class="page-section">
+          <div class="page-section-title">
+            <b>Donate</b>
+          </div>
+          <div class="page-section-description">
+            Donate once or once a month to any of these organizations that are devoted to helping victims of sexual assault.
+          </div>
+          <a class="page-section-btn">
+            <span class="body"><b>Donate</b></span>
+          </a>
+        </div>
+        <div class="page-section">
+          <div class="page-section-title">
+            <b>Spread the awareness</b>
+          </div>
+          <div class="page-section-description">
+            Get the Me Too Rising map on your website for all of your followers to see. Just copy this code snippet to embed it in your site. <copy code snippet>
+          </div>
+          <a class="page-section-btn">
+            <span class="body"><b>Copy code</b></span>
+          </a>
+        </div>
+        <div class="page-section">
+          <div class="page-section-title">
+            <b>Follow your local Me Too movement</b>
+          </div>
+          <div class="page-section-description">
+            Set up a Google Alert to get Me Too news from your area. All you have to do is <a class="link" target="_blank">click this link</a> and enter your zipcode to follow local stories and developments.
+          </div>
+          <a class="page-section-btn">
+            <span class="body"><b>Set alert</b></span>
+          </a>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</div>
+<script>
+  !function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define("Siema",[],t):"object"==typeof exports?exports.Siema=t():e.Siema=t()}("undefined"!=typeof self?self:this,function(){return function(e){function t(r){if(i[r])return i[r].exports;var n=i[r]={i:r,l:!1,exports:{}};return e[r].call(n.exports,n,n.exports,t),n.l=!0,n.exports}var i={};return t.m=e,t.c=i,t.d=function(e,i,r){t.o(e,i)||Object.defineProperty(e,i,{configurable:!1,enumerable:!0,get:r})},t.n=function(e){var i=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(i,"a",i),i},t.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},t.p="",t(t.s=0)}([function(e,t,i){"use strict";function r(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}Object.defineProperty(t,"__esModule",{value:!0});var n="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},s=function(){function e(e,t){for(var i=0;i<t.length;i++){var r=t[i];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}return function(t,i,r){return i&&e(t.prototype,i),r&&e(t,r),t}}(),l=function(){function e(t){var i=this;if(r(this,e),this.config=e.mergeSettings(t),this.selector="string"==typeof this.config.selector?document.querySelector(this.config.selector):this.config.selector,null===this.selector)throw new Error("Something wrong with your selector 😭");this.resolveSlidesNumber(),this.selectorWidth=this.selector.offsetWidth,this.innerElements=[].slice.call(this.selector.children),this.currentSlide=this.config.loop?this.config.startIndex%this.innerElements.length:Math.max(0,Math.min(this.config.startIndex,this.innerElements.length-this.perPage)),this.transformProperty=e.webkitOrNot(),["resizeHandler","touchstartHandler","touchendHandler","touchmoveHandler","mousedownHandler","mouseupHandler","mouseleaveHandler","mousemoveHandler","clickHandler"].forEach(function(e){i[e]=i[e].bind(i)}),this.init()}return s(e,[{key:"attachEvents",value:function(){window.addEventListener("resize",this.resizeHandler),this.config.draggable&&(this.pointerDown=!1,this.drag={startX:0,endX:0,startY:0,letItGo:null,preventClick:!1},this.selector.addEventListener("touchstart",this.touchstartHandler),this.selector.addEventListener("touchend",this.touchendHandler),this.selector.addEventListener("touchmove",this.touchmoveHandler),this.selector.addEventListener("mousedown",this.mousedownHandler),this.selector.addEventListener("mouseup",this.mouseupHandler),this.selector.addEventListener("mouseleave",this.mouseleaveHandler),this.selector.addEventListener("mousemove",this.mousemoveHandler),this.selector.addEventListener("click",this.clickHandler))}},{key:"detachEvents",value:function(){window.removeEventListener("resize",this.resizeHandler),this.selector.removeEventListener("touchstart",this.touchstartHandler),this.selector.removeEventListener("touchend",this.touchendHandler),this.selector.removeEventListener("touchmove",this.touchmoveHandler),this.selector.removeEventListener("mousedown",this.mousedownHandler),this.selector.removeEventListener("mouseup",this.mouseupHandler),this.selector.removeEventListener("mouseleave",this.mouseleaveHandler),this.selector.removeEventListener("mousemove",this.mousemoveHandler),this.selector.removeEventListener("click",this.clickHandler)}},{key:"init",value:function(){this.attachEvents(),this.selector.style.overflow="hidden",this.selector.style.direction=this.config.rtl?"rtl":"ltr",this.buildSliderFrame(),this.config.onInit.call(this)}},{key:"buildSliderFrame",value:function(){var e=this.selectorWidth/this.perPage,t=this.config.loop?this.innerElements.length+2*this.perPage:this.innerElements.length;this.sliderFrame=document.createElement("div"),this.sliderFrame.style.width=e*t+"px",this.enableTransition(),this.config.draggable&&(this.selector.style.cursor="-webkit-grab");var i=document.createDocumentFragment();if(this.config.loop)for(var r=this.innerElements.length-this.perPage;r<this.innerElements.length;r++){var n=this.buildSliderFrameItem(this.innerElements[r].cloneNode(!0));i.appendChild(n)}for(var s=0;s<this.innerElements.length;s++){var l=this.buildSliderFrameItem(this.innerElements[s]);i.appendChild(l)}if(this.config.loop)for(var o=0;o<this.perPage;o++){var a=this.buildSliderFrameItem(this.innerElements[o].cloneNode(!0));i.appendChild(a)}this.sliderFrame.appendChild(i),this.selector.innerHTML="",this.selector.appendChild(this.sliderFrame),this.slideToCurrent()}},{key:"buildSliderFrameItem",value:function(e){var t=document.createElement("div");return t.style.cssFloat=this.config.rtl?"right":"left",t.style.float=this.config.rtl?"right":"left",t.style.width=(this.config.loop?100/(this.innerElements.length+2*this.perPage):100/this.innerElements.length)+"%",t.appendChild(e),t}},{key:"resolveSlidesNumber",value:function(){if("number"==typeof this.config.perPage)this.perPage=this.config.perPage;else if("object"===n(this.config.perPage)){this.perPage=1;for(var e in this.config.perPage)window.innerWidth>=e&&(this.perPage=this.config.perPage[e])}}},{key:"prev",value:function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:1,t=arguments[1];if(!(this.innerElements.length<=this.perPage)){var i=this.currentSlide;if(this.config.loop){if(this.currentSlide-e<0){this.disableTransition();var r=this.currentSlide+this.innerElements.length,n=this.perPage,s=r+n,l=(this.config.rtl?1:-1)*s*(this.selectorWidth/this.perPage),o=this.config.draggable?this.drag.endX-this.drag.startX:0;this.sliderFrame.style[this.transformProperty]="translate3d("+(l+o)+"px, 0, 0)",this.currentSlide=r-e}else this.currentSlide=this.currentSlide-e}else this.currentSlide=Math.max(this.currentSlide-e,0);i!==this.currentSlide&&(this.slideToCurrent(this.config.loop),this.config.onChange.call(this),t&&t.call(this))}}},{key:"next",value:function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:1,t=arguments[1];if(!(this.innerElements.length<=this.perPage)){var i=this.currentSlide;if(this.config.loop){if(this.currentSlide+e>this.innerElements.length-this.perPage){this.disableTransition();var r=this.currentSlide-this.innerElements.length,n=this.perPage,s=r+n,l=(this.config.rtl?1:-1)*s*(this.selectorWidth/this.perPage),o=this.config.draggable?this.drag.endX-this.drag.startX:0;this.sliderFrame.style[this.transformProperty]="translate3d("+(l+o)+"px, 0, 0)",this.currentSlide=r+e}else this.currentSlide=this.currentSlide+e}else this.currentSlide=Math.min(this.currentSlide+e,this.innerElements.length-this.perPage);i!==this.currentSlide&&(this.slideToCurrent(this.config.loop),this.config.onChange.call(this),t&&t.call(this))}}},{key:"disableTransition",value:function(){this.sliderFrame.style.webkitTransition="all 0ms "+this.config.easing,this.sliderFrame.style.transition="all 0ms "+this.config.easing}},{key:"enableTransition",value:function(){this.sliderFrame.style.webkitTransition="all "+this.config.duration+"ms "+this.config.easing,this.sliderFrame.style.transition="all "+this.config.duration+"ms "+this.config.easing}},{key:"goTo",value:function(e,t){if(!(this.innerElements.length<=this.perPage)){var i=this.currentSlide;this.currentSlide=this.config.loop?e%this.innerElements.length:Math.min(Math.max(e,0),this.innerElements.length-this.perPage),i!==this.currentSlide&&(this.slideToCurrent(),this.config.onChange.call(this),t&&t.call(this))}}},{key:"slideToCurrent",value:function(e){var t=this,i=this.config.loop?this.currentSlide+this.perPage:this.currentSlide,r=(this.config.rtl?1:-1)*i*(this.selectorWidth/this.perPage);e?requestAnimationFrame(function(){requestAnimationFrame(function(){t.enableTransition(),t.sliderFrame.style[t.transformProperty]="translate3d("+r+"px, 0, 0)"})}):this.sliderFrame.style[this.transformProperty]="translate3d("+r+"px, 0, 0)"}},{key:"updateAfterDrag",value:function(){var e=(this.config.rtl?-1:1)*(this.drag.endX-this.drag.startX),t=Math.abs(e),i=this.config.multipleDrag?Math.ceil(t/(this.selectorWidth/this.perPage)):1,r=e>0&&this.currentSlide-i<0,n=e<0&&this.currentSlide+i>this.innerElements.length-this.perPage;e>0&&t>this.config.threshold&&this.innerElements.length>this.perPage?this.prev(i):e<0&&t>this.config.threshold&&this.innerElements.length>this.perPage&&this.next(i),this.slideToCurrent(r||n)}},{key:"resizeHandler",value:function(){this.resolveSlidesNumber(),this.currentSlide+this.perPage>this.innerElements.length&&(this.currentSlide=this.innerElements.length<=this.perPage?0:this.innerElements.length-this.perPage),this.selectorWidth=this.selector.offsetWidth,this.buildSliderFrame()}},{key:"clearDrag",value:function(){this.drag={startX:0,endX:0,startY:0,letItGo:null,preventClick:this.drag.preventClick}}},{key:"touchstartHandler",value:function(e){-1!==["TEXTAREA","OPTION","INPUT","SELECT"].indexOf(e.target.nodeName)||(e.stopPropagation(),this.pointerDown=!0,this.drag.startX=e.touches[0].pageX,this.drag.startY=e.touches[0].pageY)}},{key:"touchendHandler",value:function(e){e.stopPropagation(),this.pointerDown=!1,this.enableTransition(),this.drag.endX&&this.updateAfterDrag(),this.clearDrag()}},{key:"touchmoveHandler",value:function(e){if(e.stopPropagation(),null===this.drag.letItGo&&(this.drag.letItGo=Math.abs(this.drag.startY-e.touches[0].pageY)<Math.abs(this.drag.startX-e.touches[0].pageX)),this.pointerDown&&this.drag.letItGo){e.preventDefault(),this.drag.endX=e.touches[0].pageX,this.sliderFrame.style.webkitTransition="all 0ms "+this.config.easing,this.sliderFrame.style.transition="all 0ms "+this.config.easing;var t=this.config.loop?this.currentSlide+this.perPage:this.currentSlide,i=t*(this.selectorWidth/this.perPage),r=this.drag.endX-this.drag.startX,n=this.config.rtl?i+r:i-r;this.sliderFrame.style[this.transformProperty]="translate3d("+(this.config.rtl?1:-1)*n+"px, 0, 0)"}}},{key:"mousedownHandler",value:function(e){-1!==["TEXTAREA","OPTION","INPUT","SELECT"].indexOf(e.target.nodeName)||(e.preventDefault(),e.stopPropagation(),this.pointerDown=!0,this.drag.startX=e.pageX)}},{key:"mouseupHandler",value:function(e){e.stopPropagation(),this.pointerDown=!1,this.selector.style.cursor="-webkit-grab",this.enableTransition(),this.drag.endX&&this.updateAfterDrag(),this.clearDrag()}},{key:"mousemoveHandler",value:function(e){if(e.preventDefault(),this.pointerDown){"A"===e.target.nodeName&&(this.drag.preventClick=!0),this.drag.endX=e.pageX,this.selector.style.cursor="-webkit-grabbing",this.sliderFrame.style.webkitTransition="all 0ms "+this.config.easing,this.sliderFrame.style.transition="all 0ms "+this.config.easing;var t=this.config.loop?this.currentSlide+this.perPage:this.currentSlide,i=t*(this.selectorWidth/this.perPage),r=this.drag.endX-this.drag.startX,n=this.config.rtl?i+r:i-r;this.sliderFrame.style[this.transformProperty]="translate3d("+(this.config.rtl?1:-1)*n+"px, 0, 0)"}}},{key:"mouseleaveHandler",value:function(e){this.pointerDown&&(this.pointerDown=!1,this.selector.style.cursor="-webkit-grab",this.drag.endX=e.pageX,this.drag.preventClick=!1,this.enableTransition(),this.updateAfterDrag(),this.clearDrag())}},{key:"clickHandler",value:function(e){this.drag.preventClick&&e.preventDefault(),this.drag.preventClick=!1}},{key:"remove",value:function(e,t){if(e<0||e>=this.innerElements.length)throw new Error("Item to remove doesn't exist 😭");var i=e<this.currentSlide,r=this.currentSlide+this.perPage-1===e;(i||r)&&this.currentSlide--,this.innerElements.splice(e,1),this.buildSliderFrame(),t&&t.call(this)}},{key:"insert",value:function(e,t,i){if(t<0||t>this.innerElements.length+1)throw new Error("Unable to inset it at this index 😭");if(-1!==this.innerElements.indexOf(e))throw new Error("The same item in a carousel? Really? Nope 😭");var r=t<=this.currentSlide>0&&this.innerElements.length;this.currentSlide=r?this.currentSlide+1:this.currentSlide,this.innerElements.splice(t,0,e),this.buildSliderFrame(),i&&i.call(this)}},{key:"prepend",value:function(e,t){this.insert(e,0),t&&t.call(this)}},{key:"append",value:function(e,t){this.insert(e,this.innerElements.length+1),t&&t.call(this)}},{key:"destroy",value:function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0],t=arguments[1];if(this.detachEvents(),this.selector.style.cursor="auto",e){for(var i=document.createDocumentFragment(),r=0;r<this.innerElements.length;r++)i.appendChild(this.innerElements[r]);this.selector.innerHTML="",this.selector.appendChild(i),this.selector.removeAttribute("style")}t&&t.call(this)}}],[{key:"mergeSettings",value:function(e){var t={selector:".siema",duration:200,easing:"ease-out",perPage:1,startIndex:0,draggable:!0,multipleDrag:!0,threshold:20,loop:!1,rtl:!1,onInit:function(){},onChange:function(){}},i=e;for(var r in i)t[r]=i[r];return t}},{key:"webkitOrNot",value:function(){return"string"==typeof document.documentElement.style.transform?"transform":"WebkitTransform"}}]),e}();t.default=l,e.exports=t.default}])});
+</script>
+<script type="x-shader/x-vertex" id="vertexshader">
+  attribute float size;
+  attribute vec3 customColor;
+
+  varying vec3 vColor;
+
+  void main() {
+      vColor = customColor;
+      vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+      gl_PointSize = size * ( 300.0 / length( mvPosition.xyz ) );
+      gl_Position = projectionMatrix * mvPosition;
+  }
+</script>
+<script type="x-shader/x-fragment" id="fragmentshader">
+  uniform vec3 color;
+  uniform sampler2D texture;
+
+  varying vec3 vColor;
+
+  void main() {
+      gl_FragColor = vec4( color * vColor, 0.5 );
+      gl_FragColor = gl_FragColor * texture2D( texture, gl_PointCoord );
+  }
+</script>
+<script src="build/bundle.js" charset="utf-8"></script>
+</body>
+</html>

@@ -148,7 +148,7 @@ We don't have a precise source of inspiration, but what we imagine is similar to
 ### Visualizaion 1 : Global Map and Sankey flow
 
 <p align="center">
-    <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone2/visualisation 1.jpg" width="400" height="150" />
+    <img src="https://github.com/FrancescaNic/NoMoreBarPlots/blob/master/FigureMilestone2/visualisation 1.jpg" width="800" height="1500" />
 </p>
 
 **Figure 1** - Sketch of the Global Map and Sankey flow.

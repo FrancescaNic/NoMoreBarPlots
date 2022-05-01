@@ -5,7 +5,7 @@ var img_w = $(window).width() / 8.0;
 var img_h = $(window).height() / 4.0;
 var radius = 14;
 
-var map = L.map('map-holder', {
+var map = L.map('mapholder', {
 	zoom: 3,
 	maxZoom: 19,
 	scrollWheelZoom: true,
@@ -31,32 +31,21 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
 	]
 }).addTo(map);
 
-var myStyle = {
-	"color": "#00ff00",
-  "weight": 2,
-  "opacity": 3
-}
-
-
-
-
 var prevLayerClicked = null;
 
 function onEachFeature(feature, layer) {
   layer.on({
 
-    // mouseover: highlightFeature,
-    // mouseout: resetHighlight,
-
     click: function(e){
+			/*
       if (prevLayerClicked !== null) {
           // Reset style
         prevLayerClicked.setStyle({
           weight: 2,
-          opacity: 5,
+          opacity: 0,
           color: 'fff',
           dashArray: '',
-          fillOpacity: 5,
+          fillOpacity: 0,
           fillColor: 'fff'
         });
       }
@@ -66,16 +55,42 @@ function onEachFeature(feature, layer) {
         weight: 1,
         color: '#fff',
         dashArray: '',
-        fillOpacity: 5,
+        fillOpacity: 0,
         fillColor: 'red'
       });
+*/
+			map.fitBounds(e.target.getBounds());
       if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
         layer.bringToFront();
       }
-      //info.update(layer.feature.properties.availability);
+			provinceName = feature.properties.name
+			countryInfo.innerHTML = "";
+      countryInfo.insertAdjacentHTML("afterbegin", "<img src=\"Visualization 1.jpg\"><h1>"+provinceName+"</h1><p>Description of statics if needed</p>");
+			countryInfo.classList.remove("hide");
+			countryInfo.classList.add("show");
+			mapholder.classList.remove("show");
+			mapholder.classList.add("hide");
+
+			/*
+			map.dragging.disable();
+			map.touchZoom.disable();
+			map.doubleClickZoom.disable();
+			map.scrollWheelZoom.disable();
+			map.boxZoom.disable();
+			map.keyboard.disable();
+			if (map.tap) map.tap.disable();
+			document.getElementById('mapholder').style.cursor='default';
+
       prevLayerClicked = layer;
+			*/
     }
   });
+}
+
+var myStyle = {
+  "weight": 2,
+  "opacity": 0,
+	"fillOpacity": 0
 }
 
 geojson = L.geoJson(countries, {
@@ -104,16 +119,16 @@ function setUpFrame () {
 	frame.populate(curr_value);
 }
 
-var sidebar = L.control.sidebar('sidebar');
-map.addControl(sidebar);
 var zoomControl = L.control.zoom({ position: 'topright' }).addTo(map);
 
 
-var slider = document.getElementById("myRange");
-var output = document.getElementById("demo");
-output.innerHTML = slider.value; // Display the default slider value
+// Reset button for map
 
-// Update the current slider value (each time you drag the slider handle)
-slider.oninput = function() {
-  output.innerHTML = this.value;
-}
+$(document).ready(function () {
+    $('#returnMap').on('click', function () {
+        countryInfo.classList.remove("show");
+        countryInfo.classList.add("hide");
+        mapholder.classList.remove("hide");
+        mapholder.classList.add("show");
+    });
+});
